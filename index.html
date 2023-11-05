@@ -1,0 +1,227 @@
+<html>
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="header">
+<div class="hero">
+  <nav>
+    <h1 class="contact-logo"> RAHM<span>A</span></h1>
+    <ul class="nav-bar">
+    <li><a href="index.html">HOME</li> </a></li>
+    <li><a href="#about">ABOUT</li> </a></li>
+    <li><a href="#Curriculum vitae">Curriculum vitae</li> </a></li>
+    <li><a href="projects.html">PROJECTS</li> </a></li>
+    <li><a href="Contact.html">CONTACT ME</li> </a></li>
+
+    </ul>
+  </nav>
+  <div class="info">
+    <h1>I'm <span>Rahma</span> Tabbal</h1>
+    <div class="one">
+    <p> This is my official portfolio website to showcase my projects,<br>my cv and to know more informations about Rahma</p>
+    </div>
+  </div>
+  <div class="img-box">
+    <img src="images/pattern.png" class="back-img">
+    <img src="images/ji.png" class="main-img">
+  </div>
+  </div>
+</section>
+<!-- about me -->
+
+<section class="about" id="about">
+  <h1 class="tit">About Me</h1>
+  <div class="container" >
+      <div class="about-content">
+          <div class="column left">
+              <img src="images/oum.PNG" alt="">
+          </div>
+          <div class="column right">
+              <div class="text">
+                  I'm Rahma and I'm :
+              </div>
+              <p> motivated and dynamic passionate about application development. 
+                I am looking for an opportunity to develop my skills, and I am confident in my ability 
+                to find creative solutions. </p>
+                    
+                    <table class="table">
+                      <tr>
+                          <td>Birthday</td>
+                          <td> 28 août 2001 </td>
+                      </tr>
+  
+                      <tr>
+                          <td>Phone</td>
+                          <td>+39 351 729 3991</td>
+                      </tr>
+  
+                      <tr>
+                          <td>Email</td>
+                          <td>rahma.tabbal@etu.inp-n7.fr</td>
+                      </tr>
+                      <tr>
+                          <td>From</td>
+                          <td> 1 rue Sauniere Toulouse 31069</td>
+                      </tr>
+                      <tr>
+                          <td>Language</td>
+                          <td>French,Italian,English</td>
+                      </tr>
+                      
+                    </table>
+          </div>
+      </div>
+  </div>
+  </section>
+  <section class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="images/python.png" alt="Python Icon">
+        <p>Python</p>
+        <div class="percentage-bar" style="width: 80%;"></div>
+      </div>
+      <div class="skill">
+        <img src="images/java.png" alt="Java Icon">
+        <p>Java</p>
+        <div class="percentage-bar" style="width: 85%;"></div>
+      </div>
+      <div class="skill">
+        <img src="images/C.png" alt="C Icon">
+        <p>C Language</p>
+        <div class="percentage-bar" style="width: 85%;"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        var skillsSection = $('.skills-section');
+
+        if (scroll >= skillsSection.offset().top - $(window).height() / 2) {
+          skillsSection.addClass('active');
+        }
+      });
+    });
+  </script>
+  <section class="Curriculum vitae" id="Curriculum vitae">
+   <section class="cv-section">
+    <div class="cv-info">
+      <div class="imagr">
+        <img src="images/rah.jpg" alt="Left Image"></div>
+      <p>Currently, I am looking for a company that gives me the chance to put my passions and my knowledge into practice.<br>
+         I am always open for any new experience that fulfills my goals.</p>
+    </div>
+    <div class="cv-links">
+      <a href="https://export-download.canva.com/lwvSQ/DAFudulwvSQ/89/0-536336546811758648.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20231104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231104T130207Z&X-Amz-Expires=41961&X-Amz-Signature=3bb1742f4144cbf80bd8cb0eb362638dbada3fedddde02b698dabfe8f312c47d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27White%2520and%2520Beige%2520Minimalist%2520Graphic%2520Designer%2520Professional%2520Cv%2520Resume.pdf&response-expires=Sun%2C%2005%20Nov%202023%2000%3A41%3A28%20GMT" class="cv-link" target="_blank" onclick="showConfirmation('CV en Anglais')">CV in English</a>
+      <img src="images/cv.jpg" alt="Center Image">
+      <a href="https://export-download.canva.com/lwvSQ/DAFudulwvSQ/78/0-6174843272632747018.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20231104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231104T053437Z&X-Amz-Expires=61004&X-Amz-Signature=66b1497521a05091528e7d9e48ee84c31d958a7259b4c988c6ed46fc9a5f6de4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27White%2520and%2520Beige%2520Minimalist%2520Graphic%2520Designer%2520Professional%2520Cv%2520Resume.pdf&response-expires=Sat%2C%2004%20Nov%202023%2022%3A31%3A21%20GMT" class="cv-link" target="_blank" onclick="showConfirmation('CV en Francais')">CV en Francais</a>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    function showConfirmation(message) {
+      alert("Téléchargement du CV : " + message);
+    }
+  </script>
+  <section class="download-section">
+    <div class="content-container">
+        <div class="infotool">
+          <div class="yoyo">
+            <h2>More informations about me</h2>
+            <h2>Watch my video </h2>
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="images/video2.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la balise vidéo.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<footer>
+  <div class="footer-content">
+    <h3>Follow Me</h3>
+    <p>I appreciate your visit to my portfolio website. I widh you Follow my accounts on social media. Thank you! </p>
+    <div class="socials">
+      <a href="https://www.facebook.com/rama.tabbalin.1"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.facebook.com/rama.tabbalin.1"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/rama_tabbal/"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/rahma-tabbal-882406298/"><i class="fa fa-linkedin-square"></i></a>
+
+    </div>
+
+  <div class="footer-bottom">
+    <p>copyright &copy;2023. designed by <span>Rahma Tabbal</span></p>
+  </div>
+</div>
+</footer>
+</body>
+</html>
+<script>
+
+
+
+
+function showsoftskills() {
+ 
+ section=document.getElementById("softskills").innerHTML
+ document.getElementById("content").innerHTML = section;
+ document.getElementById("softskillsbtn").style.borderBottom ="5px solid #ffb7c5";
+ document.getElementById("technicalskillsbtn").style.borderBottom ="none";
+ document.getElementById("experiencebtn").style.borderBottom ="none";
+ document.getElementById("educationbtn").style.borderBottom ="none";
+
+
+
+}
+
+function showtechnicalskills() {
+ 
+ section=document.getElementById("technicalskills").innerHTML
+ document.getElementById("content").innerHTML = section;
+ document.getElementById("technicalskillsbtn").style.borderBottom ="5px solid #ffb7c5";
+ document.getElementById("softskillsbtn").style.borderBottom ="none";
+ document.getElementById("experiencebtn").style.borderBottom ="none";
+ document.getElementById("educationbtn").style.borderBottom ="none";
+
+}
+
+function experience() {
+ 
+ section=document.getElementById("Experience").innerHTML
+ document.getElementById("content").innerHTML = section;
+ document.getElementById("technicalskillsbtn").style.borderBottom ="none";
+ document.getElementById("softskillsbtn").style.borderBottom ="none";
+ document.getElementById("experiencebtn").style.borderBottom ="5px solid #ffb7c5";
+ document.getElementById("educationbtn").style.borderBottom ="none";
+
+}
+
+function education() {
+ 
+ section=document.getElementById("education").innerHTML
+ document.getElementById("content").innerHTML = section;
+ document.getElementById("technicalskillsbtn").style.borderBottom ="none";
+ document.getElementById("softskillsbtn").style.borderBottom ="none";
+ document.getElementById("experiencebtn").style.borderBottom ="none";
+ document.getElementById("educationbtn").style.borderBottom ="5px solid #ffb7c5";
+
+}
+  </script>
